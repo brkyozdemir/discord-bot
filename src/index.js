@@ -48,4 +48,4 @@ client.on('message', async msg => {
   }
 });
 
-client.login('NzQxNjQxNDY1ODA0ODgyMDEx.Xy6hcA.WxxP3G-x11FDg1CkfwUA_jyqASw');
+client.login(process.env.BOT_TOKEN);
